@@ -1,0 +1,11 @@
+{
+  "name": "session-pipeline",
+  "description": "Jira 티켓 기반 세션 컨텍스트 로드 및 메모리 관리",
+  "version": "1.0.0",
+  "author": {
+    "name": "Howard (천곤홍)",
+    "email": "ghcheondev@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["session", "jira", "notion", "context", "memory"]
+}

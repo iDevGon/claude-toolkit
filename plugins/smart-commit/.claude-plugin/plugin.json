@@ -1,0 +1,11 @@
+{
+  "name": "smart-commit",
+  "description": "git 변경사항을 논리적 단위로 분석하여 스마트 커밋 (+ 푸쉬)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Howard (천곤홍)",
+    "email": "ghcheondev@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["git", "commit", "push", "smart-commit"]
+}

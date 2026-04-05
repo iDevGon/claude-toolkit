@@ -1,0 +1,50 @@
+{
+  "name": "claude-toolkit",
+  "owner": {
+    "name": "Howard (천곤홍)",
+    "email": "ghcheondev@gmail.com"
+  },
+  "metadata": {
+    "description": "개인용 Claude Code 플러그인 마켓플레이스",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "smart-commit",
+      "source": "./plugins/smart-commit",
+      "description": "git 변경사항을 논리적 단위로 분석하여 스마트 커밋 (+ 푸쉬)",
+      "version": "1.0.0",
+      "author": {
+        "name": "Howard (천곤홍)",
+        "email": "ghcheondev@gmail.com"
+      },
+      "category": "development",
+      "keywords": ["git", "commit", "push", "smart-commit"]
+    },
+    {
+      "name": "session-pipeline",
+      "source": "./plugins/session-pipeline",
+      "description": "Jira 티켓 기반 세션 컨텍스트 로드 및 메모리 관리",
+      "version": "1.0.0",
+      "author": {
+        "name": "Howard (천곤홍)",
+        "email": "ghcheondev@gmail.com"
+      },
+      "category": "workflow",
+      "keywords": ["session", "jira", "notion", "context", "memory"]
+    },
+    {
+      "name": "devops-tools",
+      "source": "./plugins/devops-tools",
+      "description": "배포트레인 티켓 생성 및 MCP 서버 설치 도구",
+      "version": "1.0.0",
+      "author": {
+        "name": "Howard (천곤홍)",
+        "email": "ghcheondev@gmail.com"
+      },
+      "category": "devops",
+      "keywords": ["deploy", "mcp", "jira", "deploy-train"]
+    }
+  ]
+}
