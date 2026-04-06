@@ -1,11 +1,11 @@
 {
   "name": "devops-tools",
-  "description": "배포트레인 티켓 생성 및 MCP 서버 설치 도구",
+  "description": "MCP 서버 설치 도구",
   "version": "1.0.0",
   "author": {
     "name": "Howard (천곤홍)",
     "email": "ghcheondev@gmail.com"
   },
   "license": "MIT",
-  "keywords": ["deploy", "mcp", "jira", "deploy-train"]
+  "keywords": ["mcp", "install"]
 }
